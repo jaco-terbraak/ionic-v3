@@ -62,7 +62,6 @@ task('release.update', (done: (err: any) => void) => {
 task('release.publish', (done: (err: any) => void) => {
   if (promptAnswers && promptAnswers.confirmRelease === 'yes') {
     runSequence('release.publishNpmRelease',
-                'release.publishGithubRelease',
                 done);
   } else {
     console.log('Did not run release.publish tasks, aborted release');

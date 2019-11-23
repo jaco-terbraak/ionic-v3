@@ -1,7 +1,7 @@
 {
-  "private": true,
+  "private": false,
   "name": "@jaco-terbraak/ionic-v3",
-  "version": "3.9.24",
+  "version": "3.9.32",
   "description": "A powerful framework for building mobile and progressive web apps with JavaScript and Angular",
   "keywords": [
     "ionic",
@@ -17,7 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/ionic-v3.git"
+    "url": "https://github.com/jaco-terbraak/ionic-v3.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@jaco-terbraak"
   },
   "scripts": {
     "test": "gulp validate",
