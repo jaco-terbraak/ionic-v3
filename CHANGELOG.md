@@ -1,3 +1,16 @@
+<a name="3.9.23"></a>
+## [3.9.23](https://github.com/ionic-team/ionic-v3/compare/v3.9.4...v3.9.23) (2019-11-23)
+
+
+### Bug Fixes
+
+* add workaround for ios 12.2 scrolling bug ([#989](https://github.com/ionic-team/ionic-v3/issues/989)) ([ee3d5f5](https://github.com/ionic-team/ionic-v3/commit/ee3d5f5))
+* **navigation:** fixed nodes leak when opening and closing modals ([b0426a3](https://github.com/ionic-team/ionic-v3/commit/b0426a3)), closes [/github.com/ionic-team/ionic/issues/12574#issuecomment-368843850](https://github.com//github.com/ionic-team/ionic/issues/12574/issues/issuecomment-368843850)
+* **platform-registry:** add iphone-x keyboard height setting ([1d09ff8](https://github.com/ionic-team/ionic-v3/commit/1d09ff8))
+* **virtual-scroll:** validate null events on scroll update ([#970](https://github.com/ionic-team/ionic-v3/issues/970)) ([87d75d7](https://github.com/ionic-team/ionic-v3/commit/87d75d7))
+
+
+
 <a name="3.9.22"></a>
 ## [3.9.22](https://github.com/ionic-team/ionic-v3/compare/v3.9.4...v3.9.22) (2019-11-23)
 
