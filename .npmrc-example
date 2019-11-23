@@ -1,0 +1,2 @@
+registry=https://npm.pkg.github.com/@jaco-terbraak
+//npm.pkg.github.com/:_authToken=<github personal access token>
