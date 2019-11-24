@@ -110,9 +110,7 @@ import {Platform} from '../../platform/platform';
     '[attr.autocorrect]="autocorrect" ' +
     '[placeholder]="placeholder" ' +
     '[disabled]="_disabled" ' +
-    '[readonly]="_readonly" ' +
-    // fix for initial focus bug
-    'style="pointer-events:none;">' +
+    '[readonly]="_readonly">' +
 
     '<textarea #textInput *ngIf="_isTextarea" class="text-input" ' +
     '[ngClass]="\'text-input-\' + _mode"' +
@@ -137,7 +135,9 @@ import {Platform} from '../../platform/platform';
     '(touchstart)="_pointerStart($event)" ' +
     '(touchend)="_pointerEnd($event)" ' +
     '(mousedown)="_pointerStart($event)" ' +
-    '(mouseup)="_pointerEnd($event)"></div>',
+    '(mouseup)="_pointerEnd($event)" ' +
+    // fix for initial focus bug
+    'style="pointer-events:none;"></div>',
 
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
