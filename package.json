@@ -1,7 +1,7 @@
 {
   "private": false,
-  "name": "@jaco-terbraak/ionic-v3",
-  "version": "3.9.32",
+  "name": "ionic2",
+  "version": "3.9.33",
   "description": "A powerful framework for building mobile and progressive web apps with JavaScript and Angular",
   "keywords": [
     "ionic",
